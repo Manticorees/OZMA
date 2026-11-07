@@ -9,7 +9,8 @@ The source code is not published here. OZMA is closed-source freeware; see "Lice
 
 ## Install (short version)
 
-1. Download `OZMA-<version>.zip` from [Releases](../../releases) and check its `.sha256` if you like.
+1. Download `OZMA-<version>.zip` from the [OZMA page on itch.io](https://orumet.itch.io/ozma) or from
+   [Releases](../../releases) here (same file; check its `.sha256` if you like).
 2. Turn the Brick off and put its microSD card in your computer.
 3. Unzip the archive **into the root of the card** and allow it to merge folders.
    You will get `App/OZMA` (the app and your data) and `Apps/OZMA` (a menu entry for the stock OS).
@@ -25,8 +26,8 @@ Your songs live in `App/OZMA/data/Songs`. Put your own samples (WAV) in
 
 To update, unzip the new release over the old one. Your songs and samples are not touched.
 
-The full guide (studio mode, troubleshooting, removing OZMA) is on the OZMA website's
-**Getting started** page. The link will be added here with the first release.
+The full guide (studio mode, troubleshooting, removing OZMA) is on the
+[OZMA page on itch.io](https://orumet.itch.io/ozma).
 
 ## Reporting bugs
 
