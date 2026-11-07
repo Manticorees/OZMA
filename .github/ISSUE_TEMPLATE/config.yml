@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: OZMA Discord (beta bug reports and help)
+    url: https://discord.gg/uX7gvn2Ary
+    about: During the beta, please report bugs in the #bugs channel on Discord.

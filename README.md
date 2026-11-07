@@ -30,8 +30,8 @@ The full guide (studio mode, troubleshooting, removing OZMA) is on the OZMA webs
 
 ## Reporting bugs
 
-During the beta, please report bugs in the OZMA Discord (`#bugs`). The invite link will be
-added here with the first release. Attach `App/OZMA/log.txt` from the card if you can.
+During the beta, please report bugs in the [OZMA Discord](https://discord.gg/uX7gvn2Ary) (`#bugs`).
+Attach `App/OZMA/log.txt` from the card if you can.
 
 ## License
 
