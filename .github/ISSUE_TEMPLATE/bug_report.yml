@@ -1,0 +1,73 @@
+name: Bug report
+description: Something in OZMA did not work as expected
+labels: ["bug", "obt"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing OZMA! One bug per report, please. Attach files by dragging them into the boxes below.
+  - type: input
+    id: version
+    attributes:
+      label: OZMA version
+      description: From the file App/OZMA/VERSION.txt on the SD card, or PROJECT > ABOUT.
+      placeholder: "0.8.0 (abc1234)"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Brick OS
+      options:
+        - spruce
+        - stock TrimUI OS
+        - CrossMix
+        - other (write it below)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: "What did you expect, and what happened instead? For sound problems: clicks, dropouts, wrong notes or silence?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      placeholder: |
+        1. Open the demo song ...
+        2. Press ...
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: how-often
+    attributes:
+      label: How often?
+      options: ["every time", "sometimes", "once"]
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log files (please attach)
+      description: |
+        Right after the problem, quit OZMA, put the SD card in a computer and attach these files:
+        - App/OZMA/log.txt
+        - App/OZMA/studio.log
+        If the problem is in one song, attach that song too: App/OZMA/data/Songs/<NAME>.ozm
+      placeholder: Drag log.txt and studio.log here.
+  - type: textarea
+    id: media
+    attributes:
+      label: Photo or video (optional)
+      description: A phone video helps a lot for sound and screen problems.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before sending
+      options:
+        - label: I quit and reopened OZMA once (this restores background services if OZMA crashed).
+        - label: The files I attached contain no private samples or songs I don't want to share.
