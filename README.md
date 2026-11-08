@@ -1,3 +1,5 @@
+<p align="center"><img src="media/ozma-readme-banner-2560x800.jpg" alt="OZMA, a pocket groovebox for TrimUI Brick, running on the device" width="100%"></p>
+
 <div align="center">
 
 # OZMA
