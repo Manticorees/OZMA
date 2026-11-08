@@ -2,9 +2,7 @@
 
 <div align="center">
 
-# OZMA
-
-**A music tracker that runs on the TrimUI Brick itself.**
+**A pocket groovebox and music tracker that runs on the TrimUI Brick itself.**
 Write, jam and mix full songs on a handheld: no computer, no cables.
 
 [![Download on itch.io](https://img.shields.io/badge/download-itch.io-fa5c5c?style=for-the-badge&logo=itchdotio&logoColor=white)](https://orumet.itch.io/ozma)
