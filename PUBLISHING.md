@@ -13,10 +13,21 @@ Only these paths may exist in this repository:
 | `CHANGELOG.md` | User-facing release notes |
 | `PUBLISHING.md` | This file |
 | `.github/ISSUE_TEMPLATE/*.yml` | Bug report form |
-| `update/manifest.json`, `update/manifest.json.sig` | Signed update manifest (added with the in-app update feature) |
+| `update/latest.json` | Update manifest: newest version, zip URL, size, sha256 (a `.sig` signature is added with the in-app update feature) |
+| `media/screenshots/*.png`, `media/*.png` | Screenshots taken from a released build, and artwork from the OZMA brand |
 
 Release zips and their `.sha256` files are **not committed**. They are attached to GitHub
 Releases (tag `v<version>`), named `OZMA-<version>.zip` and `OZMA-<version>.zip.sha256`.
+
+## Releasing a new version
+
+1. The zip comes only from the packaging gate (`zip_gate: PASS`) and has passed a Brick run.
+2. GitHub: new release, tag `v<version>`, title `OZMA <version>`, attach `OZMA-<version>.zip` and its `.sha256`;
+   tick "pre-release" for betas. Check the asset digest shown by GitHub matches the `.sha256`.
+3. itch.io: upload the same zip to https://orumet.itch.io/ozma.
+4. Update `CHANGELOG.md` (new section on top, with the sha256) and `update/latest.json` (version, url, size,
+   sha256) in one commit.
+5. If the README status line or screenshots changed, update them in the same commit.
 
 ## Never publish
 

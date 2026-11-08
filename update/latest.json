@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "channel": "beta",
+  "version": "0.8-beta.1",
+  "released": "2026-11-07",
+  "device": "trimui-brick",
+  "zip": {
+    "name": "OZMA-0.8-beta.1.zip",
+    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.8-beta.1/OZMA-0.8-beta.1.zip",
+    "size": 11622781,
+    "sha256": "28c6b61ccd78657cb6188f06fda1d68c6fc1bdb0631f842a917a28f445b299da"
+  },
+  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.8-beta.1",
+  "page": "https://orumet.itch.io/ozma"
+}

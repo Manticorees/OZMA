@@ -1,7 +1,7 @@
 # Changelog
 
 All public OZMA releases are listed here, newest first.
-Each release is on the [OZMA page on itch.io](https://orumet.itch.io/ozma) and on the [Releases](../../releases)
+Each release is on the [OZMA page on itch.io](https://orumet.itch.io/ozma) and on the [Releases](https://github.com/Manticorees/OZMA/releases)
 page here, as `OZMA-<version>.zip` with its `.sha256`.
 
 ## 0.8-beta.1 (2026-11-07): first open beta
