@@ -1,15 +1,16 @@
 {
-  "schema": 1,
-  "channel": "beta",
-  "version": "0.8-beta.1",
-  "released": "2026-11-07",
+  "schema": 2,
+  "channel": "stable",
+  "version": "0.8.2",
+  "released": "2026-11-09",
   "device": "trimui-brick",
+  "summary": "USB gear, Wi-Fi updates, lessons",
   "zip": {
-    "name": "OZMA-0.8-beta.1.zip",
-    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.8-beta.1/OZMA-0.8-beta.1.zip",
-    "size": 11622781,
-    "sha256": "28c6b61ccd78657cb6188f06fda1d68c6fc1bdb0631f842a917a28f445b299da"
+    "name": "OZMA-0.8.2.zip",
+    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.8.2/OZMA-0.8.2.zip",
+    "size": 11888024,
+    "sha256": "6efc1a45540aff0087766e7df30e37fb522ee5ccfdbc84972b7e9d411cd54f57"
   },
-  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.8-beta.1",
+  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.8.2",
   "page": "https://orumet.itch.io/ozma"
 }

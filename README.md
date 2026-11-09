@@ -14,7 +14,8 @@ Write, jam and mix full songs on a handheld: no computer, no cables.
 
 </div>
 
-> **Open beta:** OZMA 0.8-beta.1 is out. It's free; please report anything odd on Discord.
+> **OZMA 0.8.2 is out:** plug in your other gear over USB, update over Wi-Fi, and learn OZMA with 19 lessons inside
+> the app. It's free; please report anything odd on Discord.
 
 ## Features
 
@@ -25,6 +26,12 @@ Write, jam and mix full songs on a handheld: no computer, no cables.
 - **Mix on the device.** Chorus, delay, reverb, master OTT, EQ, DJ filter and limiter; SCENES, PERFORM and QUICK MIX.
 - **Play it live.** JAM plays the notes of a scale from the buttons; MOTION adds automation lanes to your clips.
 - **BOUNCE.** Print a row to audio and keep playing it as a LOOP clip.
+- **Two USB ports, two jobs.** Top port: plug in a MIDI keyboard, or a groovebox like the Elektron Tonverk and send
+  it OZMA's sound and tempo over one cable. Bottom USB-C: the Brick becomes a sound card + MIDI port for your
+  computer, no driver needed.
+- **Update over Wi-Fi.** PROJECT > UPDATE checks, downloads and installs new versions on the Brick. Every download
+  is signed and checked first, and your songs stay.
+- **Learn it inside OZMA.** MENU opens 19 short hands-on lessons, basics first.
 - **Three demo songs and OZMA KIT.** DEEP FIELD (deep house), REDSHIFT (techno) and ION DRIVE (drum and bass), made
   only with OZMA's own sounds, plus a drum and FX kit you may use in your own music.
 
@@ -87,12 +94,15 @@ Everything lives in `App/OZMA/data` on the SD card, shared by spruce and the sto
 
 ## Updating
 
-Unzip the new version over the old one the same way. The zip never contains your songs or your own
-samples, so they stay. In-app updates over Wi-Fi are planned; the manifest they will read is
-[`update/latest.json`](update/latest.json).
+From 0.8.2 on, OZMA updates itself: turn on Wi-Fi, open **PROJECT > UPDATE**, press CHECK, DOWNLOAD, then hold A on
+INSTALL. Every download is signed and checked before anything changes, your songs, samples and settings stay, and if
+the new version does not start the old one comes back by itself.
+
+Coming from 0.8-beta.1, or no Wi-Fi? Unzip the new version over the old one the same way. The zip never contains your
+songs or your own samples, so they stay.
 
 **Check a download (optional):** each release has `OZMA-<version>.zip.sha256`.
-Windows: `certutil -hashfile OZMA-0.8-beta.1.zip SHA256` · macOS / Linux: `shasum -a 256 OZMA-0.8-beta.1.zip`.
+Windows: `certutil -hashfile OZMA-0.8.2.zip SHA256` · macOS / Linux: `shasum -a 256 OZMA-0.8.2.zip`.
 The result must match the `.sha256` file.
 
 ## Help and bug reports
@@ -108,6 +118,7 @@ The result must match the `.sha256` file.
 
 OZMA is free, closed-source software. You may download and use the released builds, and use OZMA KIT sounds in
 your music, also commercially. You may not redistribute, modify or reverse-engineer OZMA. The full terms are in
-`LICENSE.txt` inside the zip; open-source parts and fonts are listed in `THIRD_PARTY_NOTICES.txt`.
+`LICENSE.txt` inside the zip; open-source parts and fonts are listed in `THIRD_PARTY_NOTICES.txt`. The USB drivers in
+`usb/` are Linux kernel modules under GPL-2.0; their source is `OZMA-<version>-usb-gpl-source.zip` on each release.
 
 This repository holds releases and documentation only. OZMA's source code is not published.
