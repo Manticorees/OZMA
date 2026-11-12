@@ -36,8 +36,8 @@ page here, as `OZMA-<version>.zip` with its `.sha256`
 - **Updates keep your changes:** from 0.9 on, an update never replaces a demo song or OZMA KIT sample you changed.
 - **Songs:** 0.9 opens your 0.8.2 songs. A song that uses MORPH opens only in 0.9 and later (0.8.2 says LOAD:
   UNSUPPORTED INSTRUMENT and leaves it closed, nothing is deleted).
-- **Knulli (experimental):** a separate download, `OZMA-0.9-knulli-experimental.zip`, installed by hand. It was
-  tested only on a Knulli emulator, not on a real Brick with Knulli yet. Install new Knulli builds by hand (not with PROJECT > UPDATE).
+- **Knulli (experimental):** a separate download, `OZMA-0.9-knulli-experimental.zip`, installed by hand.
+  Install new Knulli builds by hand (not with PROJECT > UPDATE).
 
 `OZMA-0.9.zip` sha256: `bd1145a32636b75ffc86e40056349971a2e6963fa5dbc2de3f73144272559abb`
 `OZMA-0.9-usb-gpl-source.zip` sha256: `38e2a306d29d07a88c0372f40e167c0b341ac8665e9e394a2a1fa0a7e1d00cf2`

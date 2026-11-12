@@ -87,8 +87,8 @@ The full guide is the [OZMA manual](https://orumet.com/manual): every screen, ev
 
 ## Knulli (experimental)
 
-For a Brick running Knulli, download `OZMA-<version>-knulli-experimental.zip` instead. It was tested only in an
-emulator built from the official Knulli image, not yet on a real Brick with Knulli; please tell us how it works.
+For a Brick running Knulli, download `OZMA-<version>-knulli-experimental.zip` instead. This build is experimental;
+please tell us how it works.
 
 1. Turn the Brick off and put its SD card in your computer (or connect the Brick by USB in MTP mode).
 2. Open the SHARE drive (the one with the `roms` folder) and copy the zip's `roms` folder onto it, merging folders.
