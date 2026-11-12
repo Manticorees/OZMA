@@ -24,9 +24,10 @@ Releases (tag `v<version>`), named `OZMA-<version>.zip` and `OZMA-<version>.zip.
 
 1. The zip comes only from the packaging gate (`zip_gate: PASS`) and has passed a Brick run.
 2. GitHub: new release, tag `v<version>`, title `OZMA <version>`, attach `OZMA-<version>.zip` and its `.sha256`
-   (and `OZMA-<version>-usb-gpl-source.zip` with its `.sha256` when the zip has `usb/`);
+   (and `OZMA-<version>-usb-gpl-source.zip` with its `.sha256` when the zip has `usb/`; from 0.9 also
+   `OZMA-<version>-knulli-experimental.zip` with its `.sha256`, which is never named in `update/latest.json`);
    tick "pre-release" for betas. Check the asset digest shown by GitHub matches the `.sha256`.
-3. itch.io: upload the same zip to https://orumet.itch.io/ozma.
+3. itch.io: upload the same zip(s) to https://orumet.itch.io/ozma, as uploaded files (bytes unchanged).
 4. Update `CHANGELOG.md` (new section on top, with the sha256) and `update/latest.json` (version, url, size,
    sha256) in one commit, with `update/latest.json.sig` signed from those exact bytes. Push it only after the zip
    is on the release, so no Brick is offered a download that is not there yet.

@@ -22,6 +22,7 @@ body:
         - spruce
         - stock TrimUI OS
         - CrossMix
+        - Knulli (experimental build)
         - other (write it below)
     validations:
       required: true

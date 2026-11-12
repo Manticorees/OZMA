@@ -1,16 +1,16 @@
 {
   "schema": 2,
   "channel": "stable",
-  "version": "0.8.2",
-  "released": "2026-11-09",
+  "version": "0.9",
+  "released": "2026-11-12",
   "device": "trimui-brick",
-  "summary": "USB gear, Wi-Fi updates, lessons",
+  "summary": "MORPH, MAKE LOOP, effects map",
   "zip": {
-    "name": "OZMA-0.8.2.zip",
-    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.8.2/OZMA-0.8.2.zip",
-    "size": 11888024,
-    "sha256": "6efc1a45540aff0087766e7df30e37fb522ee5ccfdbc84972b7e9d411cd54f57"
+    "name": "OZMA-0.9.zip",
+    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.9/OZMA-0.9.zip",
+    "size": 13070766,
+    "sha256": "bd1145a32636b75ffc86e40056349971a2e6963fa5dbc2de3f73144272559abb"
   },
-  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.8.2",
+  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.9",
   "page": "https://orumet.itch.io/ozma"
 }

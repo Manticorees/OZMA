@@ -2,7 +2,46 @@
 
 All public OZMA releases are listed here, newest first.
 Each release is on the [OZMA page on itch.io](https://orumet.itch.io/ozma) and on the [Releases](https://github.com/Manticorees/OZMA/releases)
-page here, as `OZMA-<version>.zip` with its `.sha256`.
+page here, as `OZMA-<version>.zip` with its `.sha256`
+(from 0.9 also `OZMA-<version>-knulli-experimental.zip` for Knulli).
+
+## 0.9 (2026-11-12): any sound becomes an instrument, what you hear becomes a loop
+
+- **MORPH, a new instrument.** Put in any sound (a file, your voice from the mic, your computer over USB, a loop)
+  and play it on the keys. WEIRD turns it into a ringing object (MATERIAL, BODY, ROLL for a new object on every
+  press); PLAY AS HIT, TUNE, HOLD or **LOOP**. A second layer B can follow A's level, talk with its rhythm, take turns,
+  jump in or scratch along. TO SAMPLER prints a MORPH as a SAMPLER instrument.
+- **MORPH LOOP.** A loop fitted to 1, 2 or 4 bars of your tempo where every key plays a piece of it. It follows the
+  tempo the song plays at (TEMPO, TPO steps, MIDI clock in). On the Brick a new loop takes a second or two to get ready
+  after a song opens.
+- **MAKE LOOP.** On LIVE, X on a playing clip: everything you hear, including what you played by hand, becomes one
+  loop in a new row on the next bar. The music never stops; B, L2 or B+A takes it back.
+- **LOAD LOOP and smarter WARP.** X on an empty LIVE cell > LOAD LOOP: a library loop lands following your tempo. Drum
+  loops are cut at their hits, the rest is stretched; x2 / ÷2 on BPM and BARS.
+- **EFFECTS is a route map** with two groups (six one-knob effects: SQUEEZE, DRIVE, CRUSH, SMACK, GROWL, DUST), new
+  DELAY ECHO, REVERB ROOM / HALL / PLATE / GATED, MOD FX ENSEMBLE / WIDE / VIBE, and a MASTER card.
+- **DUCK MATTER:** sidechain pumping in one press, eight styles, a live picture of the dip.
+- **Record from your computer.** With USB AUDIO = IN, Y on the REC card switches MIC / USB IN (up to 30 s, the mic
+  10 s), saved as `Recordings/USB_nnn.wav`.
+- **CLIP:** hold A + arrows for pitch, add R1 for length (LEFT / RIGHT) and loudness (UP / DOWN). The grid shows your
+  notes. R1 + B picks a step, a row or the clip; FILL and DOUBLE in a few moves.
+- **SAMPLER v4:** a new screen with a wave box and four tabs, no scrolling; the REGION screen is shared with MORPH.
+- **LUNA DEEP SKY:** four new dials on the LUNA piano (CORE, EMBER, TIDE, AURORA).
+- **BALANCE LEARN:** the mix balancer listens to your song once and keeps what it learned.
+- **PERFORM:** hold L2 for DUCK pads; L2 + LEFT = CHAOS, A keeps a run you like.
+- **A new hangar** (the engine picker), and **25 lessons plus 7 DEEPER** inside the app (MENU).
+- **Fixes:** sound comes back after the Brick sleeps and wakes; saves are remembered at once (no duplicate after a
+  power cut); ECHO past 100 % no longer grows into a drone; SAMPLER slices play right on any SCALE; a damaged WAV
+  header no longer crashes OZMA at start; many screen and wording fixes.
+- **Updates keep your changes:** from 0.9 on, an update never replaces a demo song or OZMA KIT sample you changed.
+- **Songs:** 0.9 opens your 0.8.2 songs. A song that uses MORPH opens only in 0.9 and later (0.8.2 says LOAD:
+  UNSUPPORTED INSTRUMENT and leaves it closed, nothing is deleted).
+- **Knulli (experimental):** a separate download, `OZMA-0.9-knulli-experimental.zip`, installed by hand. It was
+  tested only on a Knulli emulator, not on a real Brick with Knulli yet. Install new Knulli builds by hand (not with PROJECT > UPDATE).
+
+`OZMA-0.9.zip` sha256: `bd1145a32636b75ffc86e40056349971a2e6963fa5dbc2de3f73144272559abb`
+`OZMA-0.9-usb-gpl-source.zip` sha256: `38e2a306d29d07a88c0372f40e167c0b341ac8665e9e394a2a1fa0a7e1d00cf2`
+`OZMA-0.9-knulli-experimental.zip` sha256: `380eccf50269b40a04cdb006849ebc36bf2a887d72efdef3753060f7b3b0e1fc`
 
 ## 0.8.2 (2026-11-09): plug in your other gear, update over Wi-Fi, learn OZMA inside OZMA
 
