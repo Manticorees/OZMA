@@ -5,6 +5,31 @@ Each release is on the [OZMA page on itch.io](https://orumet.itch.io/ozma) and o
 page here, as `OZMA-<version>.zip` with its `.sha256`
 (from 0.9 also `OZMA-<version>-knulli-experimental.zip` for Knulli).
 
+## 0.9.1 (2026-11-13): the Wi-Fi update says what is wrong, USB audio with an iPad, steadier MIDI clock
+
+- **Wi-Fi UPDATE says what is really wrong.** On some systems UPDATE said "SECURE CONNECTION FAILED (CLOCK WRONG?)"
+  when the real problem was a missing list of trusted certificates. OZMA now brings its own list and its own
+  downloader, and names the real reason when a secure connection fails. If 0.9 showed you that message, install
+  0.9.1 by hand once (unzip over the old one, merge folders).
+- **USB audio with an iPad.** On the bottom USB-C port the Brick now shows up on an iPad as a sound input and output
+  (USB AUDIO = OUT or IN). An iPhone with USB-C should work the same way; we have not tested it yet. With a computer
+  it is the same USB device as in 0.9.
+- **MIDI clock:** OZMA follows clock and Start / Stop from one port only, so a second clock source no longer doubles
+  the tempo, and it never sends its clock back to the port it follows. A computer plugged into the bottom USB-C port
+  mid-song now gets Start and the song position.
+- **Starts, or says why.** OZMA starts even when the SD card was mounted read-only. If it cannot start at all, it
+  shows the reason on the screen and in `App/OZMA/START_FAILED.txt`.
+- **NextUI / MinUI (experimental):** OZMA now shows up in Tools.
+- **Knulli (experimental):** `OZMA-0.9.1-knulli-experimental.zip`, installed by hand, with a new layout that macOS
+  does not hide (`OZMA/` next to `roms`); songs from the 0.9 Knulli build are copied over on the first start.
+- **Other handhelds (experimental, not tested, not supported):** entries in `App/OZMA/other-devices/` and `Tools/`.
+  On a pad OZMA does not know, it asks you to press each button once.
+- **Sound:** the same as 0.9, bit for bit.
+
+`OZMA-0.9.1.zip` sha256: `e4ac5089f79fadd5dc081209ef2b341b8179ddaaa6ead3acdc9bc9556ac1b1f7`
+`OZMA-0.9.1-usb-gpl-source.zip` sha256: `300e7a1b41b446e0bbd92693aab9fabc065891036b9d68551ab2763e477f1662`
+`OZMA-0.9.1-knulli-experimental.zip` sha256: `8b3168f82a78070e388e60d098cf1055168239d6e9a3fbdf4bcb677b09245ba5`
+
 ## 0.9 (2026-11-12): any sound becomes an instrument, what you hear becomes a loop
 
 - **MORPH, a new instrument.** Put in any sound (a file, your voice from the mic, your computer over USB, a loop)

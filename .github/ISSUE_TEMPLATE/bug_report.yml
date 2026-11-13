@@ -23,6 +23,8 @@ body:
         - stock TrimUI OS
         - CrossMix
         - Knulli (experimental build)
+        - NextUI / MinUI (experimental)
+        - another handheld (experimental, write which below)
         - other (write it below)
     validations:
       required: true

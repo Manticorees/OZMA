@@ -14,9 +14,9 @@ Write, jam and mix full songs on a handheld: no computer, no cables.
 
 </div>
 
-> **OZMA 0.9 is out:** MORPH turns any sound into an instrument, MAKE LOOP turns what you hear into a loop, a new
-> EFFECTS map with DUCK MATTER, and 25 lessons inside the app. New: an experimental build for Knulli. It's free; please
-> report anything odd on Discord.
+> **OZMA 0.9.1 is out:** the Wi-Fi update says what is really wrong, the Brick plays into an iPad over USB, MIDI clock
+> is steadier, and OZMA starts on more systems or tells you why. 0.9 brought MORPH, MAKE LOOP, the EFFECTS map with DUCK MATTER and 25 lessons inside the
+> app. It's free; please report anything odd on Discord.
 
 ## Features
 
@@ -31,7 +31,7 @@ Write, jam and mix full songs on a handheld: no computer, no cables.
 - **BOUNCE.** Print a row to audio and keep playing it as a LOOP clip.
 - **Two USB ports, two jobs.** Top port: plug in a MIDI keyboard, or a groovebox like the Elektron Tonverk and send
   it OZMA's sound and tempo over one cable. Bottom USB-C: the Brick becomes a sound card + MIDI port for your
-  computer, no driver needed.
+  computer or iPad, no driver needed.
 - **Update over Wi-Fi.** PROJECT > UPDATE checks, downloads and installs new versions on the Brick. Every download
   is signed and checked first, and your songs stay.
 - **Learn it inside OZMA.** MENU opens 25 short hands-on lessons, basics first, plus 7 DEEPER ones.
@@ -74,7 +74,8 @@ Write, jam and mix full songs on a handheld: no computer, no cables.
 | spruce | Recommended, fully tested |
 | Stock TrimUI OS, CrossMix | Experimental: please tell us how it works |
 | Knulli | Experimental: a separate download, see [Knulli](#knulli-experimental) |
-| NextUI / MinUI | Not supported yet |
+| NextUI / MinUI | Experimental: OZMA shows up in Tools |
+| Other handhelds | Experimental, not tested: see `App/OZMA/other-devices/README.txt` in the zip |
 
 1. Download `OZMA-<version>.zip` (not the Knulli one) from [itch.io](https://orumet.itch.io/ozma) or [Releases](https://github.com/Manticorees/OZMA/releases).
 2. Turn the Brick off and put its SD card in your computer.
@@ -91,11 +92,13 @@ For a Brick running Knulli, download `OZMA-<version>-knulli-experimental.zip` in
 please tell us how it works.
 
 1. Turn the Brick off and put its SD card in your computer (or connect the Brick by USB in MTP mode).
-2. Open the SHARE drive (the one with the `roms` folder) and copy the zip's `roms` folder onto it, merging folders.
+2. Open the SHARE drive (the one with the `roms` folder) and copy **both** folders from the zip onto it, merging
+   folders: `OZMA/` (the app and your songs, next to `roms`) and `roms/ports/OZMA.sh`.
 3. Start the Brick and open **Ports > OZMA**. If it is missing: START > Game settings > Update gamelists.
 
-Your songs are in `roms/ports/.data/OZMA/data/` (a dot folder: macOS hides it). On Knulli, install new versions by
-hand the same way, not with PROJECT > UPDATE. The bottom USB-C sound card mode and the Tonverk USB fix do not run on
+Your songs are in `OZMA/data/` on the SHARE drive. Coming from the 0.9 Knulli build (`roms/ports/.data/OZMA`): copy
+the new zip the same way; on its first start OZMA copies your songs, samples and settings over and leaves the old
+folder as it was. On Knulli, install new versions by hand the same way, not with PROJECT > UPDATE. The bottom USB-C sound card mode and the Tonverk USB fix do not run on
 Knulli.
 
 ## Your files
@@ -119,7 +122,7 @@ Coming from 0.8-beta.1, or no Wi-Fi? Unzip the new version over the old one the 
 songs or your own samples, so they stay.
 
 **Check a download (optional):** each release has `OZMA-<version>.zip.sha256`.
-Windows: `certutil -hashfile OZMA-0.9.zip SHA256` · macOS / Linux: `shasum -a 256 OZMA-0.9.zip`.
+Windows: `certutil -hashfile OZMA-0.9.1.zip SHA256` · macOS / Linux: `shasum -a 256 OZMA-0.9.1.zip`.
 The result must match the `.sha256` file.
 
 ## Help and bug reports

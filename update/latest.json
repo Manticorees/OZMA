@@ -1,16 +1,16 @@
 {
   "schema": 2,
   "channel": "stable",
-  "version": "0.9",
-  "released": "2026-11-12",
+  "version": "0.9.1",
+  "released": "2026-11-13",
   "device": "trimui-brick",
-  "summary": "MORPH, MAKE LOOP, effects map",
+  "summary": "UPDATE fix, iPad USB, MIDI clock",
   "zip": {
-    "name": "OZMA-0.9.zip",
-    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.9/OZMA-0.9.zip",
-    "size": 13070766,
-    "sha256": "bd1145a32636b75ffc86e40056349971a2e6963fa5dbc2de3f73144272559abb"
+    "name": "OZMA-0.9.1.zip",
+    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.9.1/OZMA-0.9.1.zip",
+    "size": 14096485,
+    "sha256": "e4ac5089f79fadd5dc081209ef2b341b8179ddaaa6ead3acdc9bc9556ac1b1f7"
   },
-  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.9",
+  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.9.1",
   "page": "https://orumet.itch.io/ozma"
 }
