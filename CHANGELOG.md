@@ -5,6 +5,28 @@ Each release is on the [OZMA page on itch.io](https://orumet.itch.io/ozma) and o
 page here, as `OZMA-<version>.zip` with its `.sha256`
 (from 0.9 also `OZMA-<version>-knulli-experimental.zip` for Knulli).
 
+## 0.9.5 (2026-11-25): TITAN bass synth, ARP, MIDI MAP, one MENU for everything
+
+- **TITAN, a new bass synth.** INSTR > TYPE > TITAN: 300 factory sounds on 8 shelves, four dials (TONE, TIME, MOVE,
+  DIRT), NEW SOUND / NUDGE, DEEP with 15 more dials, SAVE to Instruments/TITAN/MY. Works with step locks, MOTION and
+  MIDI MAP. About 15 % of one core per TITAN on the Brick.
+- **ARP** on CLIP: the track's arpeggiator, also for the JAM keys and a MIDI keyboard; ARP TO NOTES.
+- **One MENU:** ACTIONS, LESSONS, KEYS, JAM, SYSTEM. Hold MENU then START (or SELECT + START) to save and quit.
+  CONTROLS (TEACH PAD, REMAP, KEEP? 10) and STATUS in MENU > SYSTEM.
+- **MIDI MAP**, one JAM REC recorder with MOTION lanes, chord step input, MIDI OUT PORT / SEND NOW / CC slots.
+- **LIVE** ROW column, PICK and GO; **RADAR** extra sample folders and TRASH; per-lane MOTION fields; one letter grid
+  for names; TAP TEMPO; idle screen (PROJECT > WALLPAPER); power-cut-safe SAVE.
+- **Changed on purpose:** step-command effect amounts glide (demos sound slightly different); WARP BEATS uses DEGRADE,
+  BITS and START..LENGTH; MENU acts on release, R1+A merges a block, L2 held repeats slowly, MOTION is now ANIMATION.
+- **UPDATE** installs over Wi-Fi only on the Brick with spruce or the stock TrimUI OS; elsewhere it only tells you.
+- Every 0.9.2 song opens. Your songs, samples and settings stay.
+
+`OZMA-0.9.5.zip` sha256: `ae3faa1bdd4e723632fde7b12ef60ada32e84ec4e56cc90fa6da7de8d4d50dc8`
+`OZMA-0.9.5-usb-gpl-source.zip` sha256: `9e4907f7aa29227fed85628903f346ff01a5e15761f14f79f3e30a4f26fdfc7a`
+`OZMA-0.9.5-knulli.zip` sha256: `8844c8c999ea0b1d4292de33d3b773fd1e1a019677a477a31fe7826358788d41`
+`OZMA-0.9.5-muos.muxapp` sha256: `1b27e98d7e9360e25ee53a5024d3aecdd68e38ee77675b536c37805c574274e4`
+`OZMA-0.9.5-ports.zip` sha256: `7a58637ce0d5de5a24a811d5d259ad0d2a8118c3deaae9b95355eb5e1b70bc1c`
+
 ## 0.9.1 (2026-11-13): the Wi-Fi update says what is wrong, USB audio with an iPad, steadier MIDI clock
 
 - **Wi-Fi UPDATE says what is really wrong.** On some systems UPDATE said "SECURE CONNECTION FAILED (CLOCK WRONG?)"

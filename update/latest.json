@@ -1,16 +1,16 @@
 {
   "schema": 2,
   "channel": "stable",
-  "version": "0.9.2",
-  "released": "2026-11-14",
+  "version": "0.9.5",
+  "released": "2026-11-25",
   "device": "trimui-brick",
-  "summary": "SONG rows together, own samples folder",
+  "summary": "TITAN bass synth, ARP, MIDI MAP, one MENU for everything",
   "zip": {
-    "name": "OZMA-0.9.2.zip",
-    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.9.2/OZMA-0.9.2.zip",
-    "size": 14187470,
-    "sha256": "34470751e404df4c21f35ba3987b58d26b12d1a93d86d3dcb1b17ad9015d87d4"
+    "name": "OZMA-0.9.5.zip",
+    "url": "https://github.com/Manticorees/OZMA/releases/download/v0.9.5/OZMA-0.9.5.zip",
+    "size": 15147465,
+    "sha256": "ae3faa1bdd4e723632fde7b12ef60ada32e84ec4e56cc90fa6da7de8d4d50dc8"
   },
-  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.9.2",
+  "notes": "https://github.com/Manticorees/OZMA/releases/tag/v0.9.5",
   "page": "https://orumet.itch.io/ozma"
 }
